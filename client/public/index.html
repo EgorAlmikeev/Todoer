@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Todoer</title>
+
+    <style>
+      
+      li {
+        list-style-type: none;
+      }
+      ul {
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      button {
+        font-family: inherit;
+        font-size: 100%; 
+        margin: 0; 
+        line-height: normal;
+        text-transform: none;
+        -webkit-appearance: button; 
+        cursor: pointer; 
+      }
+
+      input {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .rainbow-text {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-gradient(linear, left top, left    bottom, 
+        color-stop(0.00, red), 
+        color-stop(16%, orange),
+        color-stop(32%, yellow),
+        color-stop(48%, green),
+        color-stop(60%, blue),
+        color-stop(76%, indigo),
+        color-stop(1.00, violet));
+      }
+
+  </style>
+
+  </head>
+  <body background="./background.png">
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="root" align="center"></div>
+      <marquee behavior="alternate" scrollamount="10">
+        <marquee behavior="alternate" direction="down" height="500" scrollamount="10">
+          <audio controls loop preload autoplay>
+            <source src="./Demoscene Time Machine - Cavalry.mp3" type="audio/mpeg">
+          </audio>
+        </marquee>
+      </marquee>
+  </body>
+</html>
